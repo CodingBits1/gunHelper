@@ -1,0 +1,11 @@
+{
+  "name": "gunhelper",
+  "version": "1.0.0",
+  "description": "A Helper Package to more easily interact with the gunjs db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CodingBits1",
+  "license": "MIT"
+}
