@@ -21,22 +21,6 @@ var _gun = _interopRequireDefault(require("gun/gun.js"));
 
 var _sea = _interopRequireDefault(require("gun/sea"));
 
-require("gun/lib/yson.js");
-
-require("gun/lib/dom.js");
-
-require("gun/lib/upload.js");
-
-require("gun/lib/load.js");
-
-require("gun/lib/radix");
-
-require("gun/lib/radisk");
-
-require("gun/lib/store");
-
-require("gun/lib/rindexed");
-
 var _gunRulesHelper = require("./gunRulesHelper.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
