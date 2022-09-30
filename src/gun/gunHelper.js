@@ -6,7 +6,13 @@ require('gun/lib/unset.js')
 // let knownGunServer = ["http://localhost:1337/gun", "https://gun-manhattan.herokuapp.com/gun"]
 // let knownGunServer = ["https://gun-manhattan.herokuapp.com/gun"]
 
-export const gun = GUN({
+export function initGunHelper(config){
+  gun = GUN(config || {
+    peers: ["/gun", "https://gun-manhattan.herokuapp.com/gun"]
+  })
+}
+
+export let gun = GUN({
   peers: ["/gun", "https://gun-manhattan.herokuapp.com/gun"]
 });
 
